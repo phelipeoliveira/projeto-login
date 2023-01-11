@@ -6,18 +6,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
     <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/outras-midias.css">
 </head>
 <body>
     <main>
         <section id="login">
-            <div id="imagem">
-                Foto
+            <div id="image">
+                
             </div>
             <div id="form">
                 <h1>Login</h1>
-                <p>Bem vindo(a) de volta. Faça login para acessar sua conta e acessar o conteúdo</p>
-                <form action="login.php" method="post">
-                    
+                <p>Bem vindo(a) de volta. Faça login para acessar sua conta e poder ver o conteúdo.</p>
+                <form action="login.php" method="post" autocomplete="on">
+                    <p>
+                        <i><label for="imail">E-Mail: </label></i>
+                    </p>
+                    <p><input type="email" name="mail" id="imail"></p>
+                    <p>
+                        <i><label for="isenha">Senha: </label></i>
+                    </p>
+                    <p>
+                        <input type="password" name="senha" id="isenha">
+                    </p>
+                    <p><input type="submit" value="Enviar">
+                    <input type="reset" value="Limpar"></p>
                 </form>
             </div>
         </section>
