@@ -21,10 +21,12 @@
     }
 
     section#login > div#image {
-        float: right;
+        float: left;
         width: 30%;
         height: 100%;
     }
+
+    
 }
 
 @media screen and (min-width: 992px) {  /* DESKTOP */ 
@@ -38,13 +40,13 @@
     }
 
     section#login > div#image {
-        float: left;
+        float: right;
         width: 50%;
         height: 100%;
     }
 
     section#login > div#form {
-        float: right;
+        float: left;
         width: 50%;
     }
 }

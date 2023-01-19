@@ -38,7 +38,7 @@ section#login {
 
     background-color: white;
     width: 250px;
-    height: 470px;
+    height: 490px;
     border-radius: 15px;
 
     transition: width 0.5s, height 0.5s;
@@ -54,6 +54,62 @@ section#login > div#image {
 }
 
 section#login > div#form {
-    padding: 12px;
+    padding: 10px;
     display: block;
+}
+
+div#form > h1 {
+    text-align: center;
+}
+
+div#form > p {
+    font-size: 0.8em;
+}
+
+form > div.login {
+    background-color: #5f2c82;
+    display: block;
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    margin: 5px 0px;
+}
+
+
+form > input[type=submit] {
+    display: block;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    background-color: #49a09d;
+    color: white;
+    padding-top: 3px;
+    margin-top: 3px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form > input[type=submit]:hover {
+    background-color: #2d6462;
+}
+
+form > a.bottom {
+    display: block;
+    text-align: center;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    background-color: white;
+    color: #49a09d;
+    padding-top: 5px;
+    margin-top: 5px;
+    border: 1px solid #49a09d;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+form > a.bottom:hover {
+    color: #2d6462;
 }
